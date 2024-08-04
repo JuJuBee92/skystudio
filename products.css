@@ -7,11 +7,9 @@ body{background:#42566e;
     line-height:2;
     font-weight:800;
     font-style:normal;
-    color:#7c9abe}
-
-
+    color:#7c9abe }
 
 h1{font-family:'ubuntu',sans-serif;
-    font-weight:800;color:#FED0B4;font-size:60px;}
+    font-weight:800;color:#FED0B4;font-size:60px;text-align: center;}
 
 p{font-size: 18px;text-align: left;}
