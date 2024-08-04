@@ -1,0 +1,23 @@
+html{background:#42566e}
+body{background:#42566e;
+    width: 800px;
+    margin: 0 auto;
+    padding: 4rem;
+    font-family:'ubuntu',sans-serif;
+    line-height:2;
+    font-weight:800;
+    font-style:normal;
+    color:#7c9abe }
+
+h1{font-family:'ubuntu',sans-serif;
+    font-weight:800;color:#FED0B4;font-size:60px;text-align: center;}
+
+h2{font-family:'ubuntu',sans-serif;
+    font-weight:800;color:#FED0B4;font-size:60px;text-align: center;}
+
+h3{font-family:'ubuntu',sans-serif;
+    font-weight:800;color:#FED0B4;font-size:60px;text-align: center;}
+
+p{font-size: 18px}
+
+ul{list-style-position: inside;text-align: center;}

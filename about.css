@@ -1,0 +1,45 @@
+html{background:#42566e}
+body{background:#42566e;
+    width: 800px;
+    margin: 0 auto;
+    padding: 4rem;
+    font-family:'ubuntu',sans-serif;
+    line-height:2;
+    font-weight:800;
+    font-style:normal;
+    color:#7c9abe}
+
+.container {display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.4fr 2.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "menu"
+    "sky"
+    "about";}
+
+.menu {grid-area: menu;}
+
+.sky {grid-area: sky;}
+
+.about {display: grid;
+  grid-template-columns: 1.7fr 0.1fr 2.6fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "about-left about-left about-right"
+    "about-left about-left about-right"
+    "about-left about-left about-right";
+  grid-area: about;}
+
+.about-left {grid-area: about-left;}
+
+.about-right {grid-area: about-right;}
+
+
+h1{font-family:'ubuntu',sans-serif;
+    font-weight:800;color:#FED0B4;font-size:60px;}
+
+p{font-size: 18px;text-align: left;}
